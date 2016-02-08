@@ -1,0 +1,181 @@
+body {
+  background-color: #D6C2FF;
+}
+.masthead {
+  background-color: grey;
+  padding: 15em 0;
+  background-image: url("../images/masthead-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.masthead-name, .masthead-title {
+  color: white;
+  text-align: left;
+  padding: 0 30% 0 10%;
+  margin-bottom: 0.1em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 42pt;
+  font-weight: 800;
+  
+}
+
+.contact-button {
+  display: block;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  margin: 0 auto;
+  line-height: 1.33;
+  width: 9.688rem;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.125rem;
+}
+
+.contact-button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
+}
+
+
+
+#section-border {
+  position: absolute;
+  bottom: 0;
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto 4em auto;
+  padding-top: 2em;
+  padding-bottom: 12em;
+  background-color: inherit;
+  position: relative;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: .5em 0 .5em 0;
+  color: white;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: .5em 0 .5em 0;
+  color: white;
+  text-align: center;
+}
+  
+a {
+  text-decoration: none;
+}
+
+.content a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(45, 162, 129);
+}
+
+p {
+  margin: 1em 0 1em 0;
+}
+
+.content p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 1.25em;
+}
+
+.questions {
+  padding: 0;
+}
+
+.questions li {
+  list-style-type: none;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.portfolio {
+  background-color: rgb(255, 215, 174);
+  width: 100%;
+}
+
+
+.portfolio-examples {
+  list-style-type: none;
+  margin: 0 auto 0 auto;
+  width: 80%;
+  text-align: left;
+  padding: 0;
+}
+
+.portfolio-examples li {
+  width: 30%;
+  height: 10em;
+  display: inline-block;
+  border: none;
+  margin: 4em 0 4em 4em;
+  overflow: hidden; 
+
+}
+
+@media (max-width: 600px){
+  .masthead-name, .masthead-title {
+    font-size: 29pt;
+  }
+  .contact-button {
+    margin-top: 2em;
+  }
+  
+}
+footer {
+ background-color: rgb(107, 146, 206);
+}
+
+.social {
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.icons > li {
+  border: none;
+  width: 3rem;
+  height: 1.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  padding: .625rem 0;
+  text-align: center;
+}
+
+.fa {
+  font-size: 2.5em;
+}
+
+.linkedin a{
+  color: #2828D0;
+}
+
+.github a{
+  color: #4A104A;
+}
