@@ -113,6 +113,14 @@ p {
   display: none;
 }
 
+.kenshin {
+  background-image: url("../images/Kenshin.gif");
+  width: 540px;
+  height: 406px;
+  margin: 0 auto;
+  display: none;
+}
+
 .image-wrapper {
   position: relative;
 }
